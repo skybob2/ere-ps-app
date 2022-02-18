@@ -19,7 +19,7 @@
         <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
         <quarkus.platform.version>1.13.7.Final</quarkus.platform.version>
         <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
-        <hapi.version>5.4.2</hapi.version>
+        <hapi.version>5.7.0</hapi.version>
     </properties>
     <!-- 2021-12-20 Add a random line to update maven cache in github actions -->
     <dependencyManagement>
@@ -88,7 +88,7 @@
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-validation-resources-r4</artifactId>
-            <version>5.4.2</version>
+            <version>5.7.0</version>
         </dependency>
         <dependency>
             <groupId>com.hp.jipp</groupId>
